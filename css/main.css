@@ -4,14 +4,19 @@ body {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   color: #667495
 }
 
 p {
-  font-size: 18px;
+  font-size: 14px;
   color: #252933
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
 }
 
 /****************
@@ -20,7 +25,7 @@ Navbar
 nav {
   width: 100%;
   margin: 0em auto;
-  font-size: 18px;
+  font-size: 14px;
 }
 nav ul {
   text-align: center;
@@ -34,12 +39,12 @@ nav li {
 Intro Section
 ****************/
 .intro-section {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 .intro-section h1 {
   text-align: center;
-  font-size: 72px;
+  font-size: 56px;
 }
 
 .name {
@@ -56,39 +61,117 @@ Intro Section
 
 .intro-section h2 {
   text-align: center;
-  font-size: 36px;
-  letter-spacing: 17px;
-  margin: 0 0 50px 15px;
+  font-size: 26px;
+  letter-spacing: 14px;
+  margin: 0 0 50px 12px;
   color: #2c3546;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.headshot {
+  max-width: 200px;
 }
 
 /****************
 Background Section
 ****************/
 .background-section {
-  margin: 100px 0;
+  padding: 100px 0 50px 0;
 }
 
 /****************
 Skills Section
 ****************/
 .skills-section {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 .skills-section li {
   list-style: none;
-  font-size: 18px;
+  font-size: 14px;
+}
+
+.skills-section ul {
+  margin-bottom: 0;
+}
+
+.skills-header {
+  margin: 0;
 }
 
 /****************
 Experience Section
 ****************/
+.experience-section{
+  padding: 50px 0;
+}
+
+.company-name {
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 14px;
+}
+
+.position {
+  margin: 0;
+  font-size: 16px;
+  color: #697181
+}
+
+.job-description {
+  margin: 0px 0px 15px 15px;
+}
+
+.job-date {
+  text-align: right;
+}
 
 /****************
 Projects Section
 ****************/
+.projects-section {
+  padding: 50px 0;
+}
+
+.project {
+  margin-bottom: 50px;
+}
+
+.project-name {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.project-description {
+  margin: 0;
+  font-size: 14px;
+  color: #697181
+}
+
+/*.project-img {
+  max-width: 400px;
+}*/
 
 /****************
 Design Section
 ****************/
+
+/****************
+Footer
+****************/
+footer {
+  width: 100%;
+  margin: 0em auto;
+  font-size: 18px;
+}
+footer ul {
+  margin: 25px 0;
+  text-align: center;
+}
+footer li {
+  display: inline-block;
+  margin: 0 3em;
+}

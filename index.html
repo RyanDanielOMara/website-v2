@@ -5,19 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
 
     <title>Ryan Daniel O'Mara</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
-
     <!-- Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900" rel="stylesheet">
-
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/0a1a92f4ad.js"></script>
   </head>
 
   <body>
@@ -27,11 +34,11 @@
     ===============-->
     <nav>
       <ul>
-        <li>background</li>
-        <li>skills</li>
-        <li>experience</li>
-        <li>projects</li>
-        <li>design</li>
+        <li><a href="#background-section">background</a></li>
+        <li><a href="#skills-section">skills</a></li>
+        <li><a href="#experience-section">experience</a></li>
+        <li><a href="#projects-section">projects</a></li>
+        <li><a href="#design-section">design</a></li>
       </ul>
     </nav>
 
@@ -42,21 +49,21 @@
       <!--==============
       Intro Section
       ===============-->
-      <div class="intro-section">
+      <div class="intro-section" id="intro-section">
 
-        <img src="img/logo.png" alt="logo" class="mx-auto d-block">
+        <img src="img/logo.png" alt="logo" class="mx-auto d-block logo">
 
         <h1 class="name">ryan<span class="mid-name">daniel</span>omara</h1>
         <h2>software engineer</h2>
 
-        <img src="img/headshot.png" alt="headshot" class="mx-auto d-block">
+        <img src="img/headshot.png" alt="headshot" class="mx-auto d-block headshot">
 
       </div><!-- /.intro section -->
 
       <!--==============
       Background Section
       ===============-->
-      <div class="background-section">
+      <div id="background-section" class="background-section">
         <div class="row">
           <div class="col-2">
             <h3>background</h3>
@@ -91,49 +98,235 @@
       <!--==============
       Skills Section
       ===============-->
-      <div class="skills-section">
+      <div id="skills-section" class="skills-section">
         <div class="row">
           <div class="col-2">
             <h3>skills</h3>
           </div>
+
           <div class="col">
-            <p>
+            <p class="skills-header">
               <span style="font-weight:700">languages {</span>
             </p>
-            <ul>
-              <li>Python</li>
-              <li>Java</li>
-              <li>Perl</li>
-              <li>C++</li>
-              <li>C</li>
-              <li>JavaScript</li>
-              <li>HTML</li>
+
+            <ul style="margin-top: 0">
+              <li>Python,</li>
+              <li>Java,</li>
+              <li>Perl,</li>
+              <li>C++,</li>
+              <li>C,</li>
+              <li>JavaScript,</li>
+              <li>HTML,</li>
               <li>CSS</li>
             </ul>
+            <p><span style="font-weight:700">}</span></p>
+          </div>
 
-          </div>
           <div class="col">
-            tools
+            <p class="skills-header">
+              <span style="font-weight:700">tools {</span>
+            </p>
+            <ul style="margin-top: 0">
+              <li>Agile,</li>
+              <li>Git &amp; Perforce,</li>
+              <li>Node.js,</li>
+              <li>Chrome Devtools,</li>
+              <li>MongoDB,</li>
+              <li>MySQL</li>
+            </ul>
+            <p><span style="font-weight:700">}</span></p>
           </div>
+
           <div class="col">
-            frameworks
+            <p class="skills-header">
+              <span style="font-weight:700">frameworks {</span>
+            </p>
+            <ul style="margin-top: 0">
+              <li>Django,</li>
+              <li>Flask,</li>
+              <li>Express.js,</li>
+              <li>AngularJS,</li>
+              <li>React</li>
+            </ul>
+            <p><span style="font-weight:700">}</span></p>
           </div>
+
           <div class="col">
-            design
+            <p class="skills-header">
+              <span style="font-weight:700">design {</span>
+            </p>
+            <ul style="margin-top: 0">
+              <li>Photoshop,</li>
+              <li>Illustrator,</li>
+              <li>InDesign,</li>
+              <li>After Effects</li>
+            </ul>
+            <p><span style="font-weight:700">}</span></p>
           </div>
         </div>
       </div><!-- /.skills section -->
+
+      <!--==============
+      Experience Section
+      ===============-->
+      <div id="experience-section" class="experience-section">
+        <div class="row">
+          <div class="col-2">
+            <h3>experience</h3>
+          </div>
+          <div class="col">
+            <p class="company-name">athenahealth</p>
+            <p class="position">Software Developer Intern</p>
+          </div>
+          <div class="col-3">
+              <p class="job-date">May - August 2017</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+          </div>
+          <div class="col job-description">
+            <p>
+              Designed and implemented a new template engine for document
+              categorization and data extraction using optical character
+              recognition, increasing template comparison efficiency by 60x.
+              Also developed an intuitive user interface for template
+              generation.  Worked closely with the parent team to ensure
+              flawless integration into the existing fax workflow.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-2">
+          </div>
+          <div class="col">
+            <p class="company-name">FourthIdea/KanJam</p>
+            <p class="position">Design/Marketing Intern</p>
+          </div>
+          <div class="col-3">
+              <p class="job-date">May - August 2016</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+          </div>
+          <div class="col job-description">
+            <p>
+              Worked with KanJam to create designs and marketing strategies for
+              the launch of a new product, KanJam Gronk.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2">
+          </div>
+          <div class="col">
+            <p class="company-name">Evolution Dental</p>
+            <p class="position">Directory of Web and Graphic Design</p>
+          </div>
+          <div class="col-3">
+              <p class="job-date">June - August 2015</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-2">
+          </div>
+          <div class="col job-description">
+            <p>
+              In charge of website development across multiple company sites as
+              well as booklet design, infographics, iconography, and other
+              content creation.
+            </p>
+          </div>
+        </div>
+      </div><!-- /.experience section -->
+
+      <!--==============
+      Projects Section
+      ===============-->
+      <div id="projects-section" class="projects-section">
+        <div class="row project">
+          <div class="col-2">
+            <h3>projects</h3>
+          </div>
+
+          <div class="col">
+            <a href="http://nbai.ddns.net" target="blank"><img src="img/nbai-webapp.png" alt="NBAI" class="project-img"></a>
+          </div>
+
+          <div class="col-3">
+            <p class="project-name">NBAI</p>
+            <p class="project-description">
+              Web application built on Flask &amp; MongoDB to provide
+              predictions for NBA fantasy points based on stats collection from
+              stats.nba.com's API.
+            </p>
+          </div>
+        </div>
+
+        <div class="row project">
+          <div class="col-2"></div>
+
+          <div class="col">
+            <img src="img/athena-mockup.png" alt="NBAI" class="project-img">
+          </div>
+
+          <div class="col-3">
+            <p class="project-name">Template Engine</p>
+            <p class="project-description">
+              Internal tool developed at athenahealth which uses optical
+              character recognition to categorize documents and extract data
+              from them into a database.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2"></div>
+
+          <div class="col">
+            <a href="http://ricfittraining.com" target="blank"><img src="img/ricfit-website.png" alt="RicFit" class="project-img"></a>
+          </div>
+
+          <div class="col-3">
+            <p class="project-name">RicFit</p>
+            <p class="project-description">
+              Website developed for a personal trainer using HTML, CSS,
+              JavaScript, Photoshop, Illustrator.
+            </p>
+          </div>
+        </div>
+      </div><!-- /.projects section -->
+
 
 
 
     </div><!-- /.container -->
 
+    <!--==============
+    Footer
+    ===============-->
+    <footer class="footer">
+      <hr>
+        <ul>
+          <li><a href="resume.pdf" target="blank">resume</a></li>
+          <li><a href="https://github.com/RyanDanielOMara" target="blank">github</a></li>
+          <li><a href="https://www.linkedin.com/in/ryan-o-mara-287a3baa" target="blank">linkedin</a></li>
+          <li><a href="mailto:ryandanielomara@gmail.com" target="blank">email</a></li>
+        </ul>
+        <p style="text-align: center;">© Ryan O'Mara 2017</p>
+    </footer><!-- /.footer -->
+
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
