@@ -151,10 +151,6 @@ Projects Section
   color: #697181
 }
 
-/*.project-img {
-  max-width: 400px;
-}*/
-
 /****************
 Design Section
 ****************/
@@ -174,4 +170,120 @@ footer ul {
 footer li {
   display: inline-block;
   margin: 0 3em;
+}
+
+
+/************************
+Media Queries for Mobile
+************************/
+
+/****************
+Intro Section
+****************/
+@media only screen and (max-width: 768px) {
+
+  h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  }
+
+  /****************
+  Navbar
+  ****************/
+  nav {
+    display: none;
+  }
+
+  /****************
+  Intro Section
+  ****************/
+  .intro-section {
+    padding: 10px 0 0 0;
+  }
+
+  .intro-section h1 {
+    font-size: 36px;
+  }
+
+  .intro-section h2 {
+    font-size: 14px;
+    letter-spacing: 10px;
+    margin: 5px 0px 50px 6px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .headshot {
+    width: 150px;
+  }
+
+  /****************
+  Background Section
+  ****************/
+  .background-section {
+    padding: 100px 0 50px 0;
+  }
+
+  .background-section p {
+    font-size: 13px;
+  }
+
+  /****************
+  Experience Section
+  ****************/
+  .experience-section {
+    margin-bottom: 5px;
+  }
+  .position {
+    font-size: 14px;
+  }
+
+  .job-description {
+    margin: 0px 0px 15px 5px;
+  }
+
+  .job-description p {
+    font-size: 12px;
+  }
+
+  .job-date {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  /****************
+  Projects Section
+  ****************/
+  .project {
+    margin-bottom: 100px;
+  }
+
+  .project-img{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /****************
+  Footer
+  ****************/
+  footer {
+    width: 100%;
+    margin: 0em auto;
+    font-size: 14px;
+  }
+  footer ul {
+    padding: 0;
+    margin:  10px 0 15px 0;
+    text-align: center;
+  }
+  footer li {
+    display: inline;
+    margin: 0 25px;
+  }
 }
